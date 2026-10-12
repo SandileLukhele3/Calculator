@@ -1,0 +1,442 @@
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Nkhanini High schol.Discover our academic programs, extracurricula activities and many more details">
+    <meta name="author" content="Mr Lukhele ICT teacher">
+    <title>volleyball</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <script src="./js/script.js" defer></script>
+        
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  background: linear-gradient( 120deg, #006400 30%, #ffa500 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 100px;
+}
+html {
+  font-size: 62.5%;
+}
+@media screen and (max-width: 768px){
+    html{
+        font-size: 52.5%;
+    }
+    h1{
+        font-size: 20px;
+    }
+    
+    }
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #222;
+  background-color: #fafaf7;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  
+}
+            
+/* header section*/
+.para{
+    margin-top: 80px;
+    max-width: 100%;
+    
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/volleybal/img8.jpg);
+    
+    background-position: center;
+    background-size: cover;
+    padding: 235px 0;
+    
+}
+@media screen and (max-width: 768px)
+{
+    .para{
+        margin-top: 75px;
+    }
+    }
+
+.para h1{
+    color: #fff;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-0%,-100%);
+ 
+}
+/* End of header section*/
+/* Beginning of grid section*/
+.grid_title{
+text-align: center;        
+    }
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 768px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 768px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/* End of grid section*/
+
+/*Contact section*/
+
+ #contact{
+    max-width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("./images/img7.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    align-items: center;
+ }
+.contact-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    background-color: rgba(0,100,0,.8);
+    height: 400px;
+    padding: 60px 80px;
+}
+.contact_col{
+    flex-basis: 22%;
+}
+#contact .contact-col img{
+    height: 100px;
+}
+
+.contact-container h2{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff73
+    }
+.contact-container h5{
+    font-family: sans-serif;
+    font-size: .9rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff73
+    }
+@media(max-width: 700px){
+    .contact-container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/*End of Contact section*/
+
+
+/*start of socail media menu */
+.social{
+             max-width: 100%;
+            text-align: center;
+            margin: auto;
+           /* background-color: ##fafaf7;*/
+    background-color: rgba(0,0,0,.9)
+           
+                
+   }
+          .social_container{
+              display: flex;
+              flex-wrap: wrap;
+               justify-content: space-between;
+               
+              
+    }
+            .iconz img{
+              width: 15px;
+              
+    }
+            .social_text{
+                margin-top: 0;
+                font-size: .5em;
+                color: #ffffff40
+            }
+
+/*end of socail media menu */
+        </style>
+    </head>
+    <body>
+        
+<header class="header">
+        <div class="header__inner">
+          <div id="home" class="header__logo">
+            <a href="#home" class="logo1"><img src="./images/logo1.png" style="height: 80px" alt="logo"/></a>
+          </div>
+
+          <div class="gnav js-gnav" id="gnav">
+            <nav class="gnav__wrapper">
+              <ul class="gnav__list">
+                <li class="gnav__item">
+                  <a href="index.html" target="_parent" class="gnav__link">
+                    <span class="gnav__label" >Home</span>
+                  </a>
+                </li>
+                <li class="gnav__item">
+                  <button class="gnav__btn js-nav-toggle" aria-controls="gnav-panel-1" aria-expanded="false" aria-label="JavaScript" type="button">
+                    <span class="gnav__label">About us</span>
+                    <svg class="gnav__arrow"  width="11" height="7" viewBox="0 0 11 7" fill="none">
+                      <path d="M1 1L5.5 6L10 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </button>
+                  <div class="gnav__panel js-gnav-panel" aria-hidden="true" id="gnav-panel-1">
+                    <div class="gnav__panelInner">
+                      <ul class="gnav__subList">
+                        <li class="gnav__subItem">
+                          <a href="welcome2.html" target="_parent" class="gnav__link">
+                            <span class="gnav__label">Welcome</span>
+                          </a>
+                        </li>
+                        <li class="gnav__subItem">
+                          <a href="history.html" class="gnav__link">
+                            <span class="gnav__label">History</span>
+                          </a>
+                        </li>
+                        <li class="gnav__subItem">
+                          <a href="mission.html" class="gnav__link">
+                            <span class="gnav__label">Misssion & Values</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="gnav__item">
+                  <button class="gnav__btn js-nav-toggle" aria-controls="gnav-panel-2" aria-expanded="false" aria-label="Web Dev" type="button">
+                     <span class="gnav__label">Admissions</span>
+                     <svg class="gnav__arrow"  width="11" height="7" viewBox="0 0 11 7" fill="none">
+                      <path d="M1 1L5.5 6L10 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </button>
+                  <div class="gnav__panel js-gnav-panel" aria-hidden="true" id="gnav-panel-2">
+                    <div class="gnav__panelInner">
+                      <ul class="gnav__subList">
+                        <li class="gnav__subItem">
+                          <a href="apply.html" class="gnav__link">
+                            <span class="gnav__label">How to apply</span>
+                          </a>
+                        </li>
+                        <li class="gnav__subItem">
+                          <a href="admission.html" class="gnav__link">
+                            <span class="gnav__label">Admission Policy</span>
+                          </a>
+                        </li>
+                        <li class="gnav__subItem">
+                          <a href="fees.html" class="gnav__link">
+                            <span class="gnav__label">School Fees</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                
+                <li class="gnav__item">
+                  <button class="gnav__btn js-nav-toggle" aria-controls="gnav-panel-3" aria-expanded="false" aria-label="Links" type="button">
+                    <span class="gnav__label">Sports</span>
+                    <svg class="gnav__arrow"  width="11" height="7" viewBox="0 0 11 7" fill="none">
+                      <path d="M1 1L5.5 6L10 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </button>
+                  <div class="gnav__panel js-gnav-panel" aria-hidden="true" id="gnav-panel-3">
+                    <div class="gnav__panelInner">
+                      <ul class="gnav__subList">
+                        <li class="gnav__subItem">
+                          <a href="image_grid_soccer.html" class="gnav__link">
+                            <span class="gnav__label">Soccer</span>
+                          </a>
+                        </li>
+                        <li class="gnav__subItem">
+                          <a href="netball.html" target="_parent" class="gnav__link">
+                            <span class="gnav__label">Netball</span>
+                          </a>
+                        </li>
+                        <li class="gnav__subItem">
+                          <a href="Volleyball.html" target="_parent" class="gnav__link">
+                            <span class="gnav__label">Volleyball</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+               <li class="gnav__item">
+                  <button class="gnav__btn js-nav-toggle" aria-controls="gnav-panel-3" aria-expanded="false" aria-label="Links" type="button">
+                    <span class="gnav__label">Academics</span>
+                    <svg class="gnav__arrow"  width="11" height="7" viewBox="0 0 11 7" fill="none">
+                      <path d="M1 1L5.5 6L10 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </button>
+                  <div class="gnav__panel js-gnav-panel" aria-hidden="true" id="gnav-panel-3">
+                    <div class="gnav__panelInner">
+                      <ul class="gnav__subList">
+                        <li class="gnav__subItem">
+                          <a href="staff.html" class="gnav__link">
+                            <span class="gnav__label">Staff</span>
+                          </a>
+                        </li>
+                        <li class="gnav__subItem">
+                          <a href="students.html" target="_parent" class="gnav__link">
+                            <span class="gnav__label">Students</span>
+                          </a>
+                        </li>
+                        <li class="gnav__subItem">
+                          <a href="culture.html" target="_parent" class="gnav__link">
+                            <span class="gnav__label">Culture</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="gnav__item">
+                  <a href="contact.html" class="gnav__link">
+                    <span class="gnav__label" >contact</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <button class="hamburger js-global-btn" aria-controls="gnav"  aria-expanded="false" type="button">
+            <div class="hamburger__wrap">
+              <span class="hamburger__line"></span>
+              <span class="hamburger__line"></span>
+            </div>
+          </button>
+        </div>
+    </header>
+<section>
+    <div class="para">
+        <h1>Volleyball</h1>
+        
+    </div>
+</section>
+        
+<!---Beginning of grid section -->
+<!-- Header -->
+<div class="grid_title">
+  <h1>Sports Activities</h1>
+  <p>Volleyball at Mayaluka</p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="./images/volleybal/img2.jpg" style="width:100%">
+    <img src="./images/volleybal/img3.jpg" style="width:100%">
+    <img src="./images/volleybal/img4.jpg" style="width:100%">
+    
+    
+  </div>
+  <div class="column">
+    <img src="./images/volleybal/img5.jpg" style="width:100%">
+    <img src="./images/volleybal/img6.jpg" style="width:100%">
+    <img src="./images/volleybal/img5.jpg" style="width:100%">
+    
+    
+  </div>  
+  <div class="column">
+    
+    <img src="./images/volleybal/img2.jpg" style="width:100%">
+    <img src="./images/volleybal/img3.jpg" style="width:100%">
+    <img src="./images/volleybal/img4.jpg" style="width:100%">
+    
+    
+  </div>
+  <div class="column">
+    
+    <img src="./images/volleybal/img5.jpg" style="width:100%">
+    <img src="./images/volleybal/img6.jpg" style="width:100%">
+    <img src="./images/volleybal/img5.jpg" style="width:100%">
+    
+    
+  </div>
+</div>
+
+<!---Beginning of grid section -->
+        
+<!---Beginning of footer section -->
+<footer id="contact">
+<div class = "contact-container">
+    <div class="contact-col">
+         <img src="./images/logo1.png"   alt="logo"/>
+    </div>
+    <div class="contact-col">
+        <h2>Phone & email</h2>
+        <h5>+268 000000</h5>
+        <h5>principal@nkhanini.sz</h5>
+    </div>
+    <div class="contact-col">
+        <h2>Postal address</h2>
+        <h5>Matata P.O. box 7777</h5>
+    </div>
+    <div class="contact-col">
+        <h2>Physical Adddress</h2>
+        <h5>Lubombo Matata Ncandweni</h5>          
+    
+    </div>
+</div>      
+<section class= social>
+     <div class=".social_container" >
+      <div class="iconz">
+      <a target="_blank"><img src="images/twitter.png"></a>
+      <a target="_blank"><img src="images/facebook.png"></a>
+      <a target="_blank"><img src="images/instagram.png"></a>
+      <a target="_blank"><img src="images/linkedln.png"></a>
+          <p class="social_text" >All rights reserved &copy; 2026 </p>
+       </div>
+                
+      </div>
+    </section>
+</footer>
+<!--End of footer section-->
+    
+
+    </body>
+</html>
